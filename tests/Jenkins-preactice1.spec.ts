@@ -6,7 +6,7 @@ test("Practice Test 1", async ({ page }) => {
     await page.goto("https://www.google.com/");
     console.log(await page.title());
     expect(page).toHaveTitle("Google")  
-    console.log("Ending Practice Test 1");
+    console.log("Ending Practice Test 1")
 })
 
 test("Practice Test 2", async ({ page }) => {
