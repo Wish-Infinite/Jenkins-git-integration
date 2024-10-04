@@ -13,14 +13,14 @@ test("Practice Test 2", async ({ page }) => {
     console.log("Starting Practice Test 2");
     await page.goto("https://www.google.com/");
     console.log(await page.title());
-    expect(page).toHaveTitle("Google");
-    console.log("Ending Practice Test 2");
+    expect(page).toHaveTitle("Google")
+    console.log("Ending Practice Test 2")
 })
 
 test("Practice Test 3 @Dev", async ({ page }) => {
     console.log("Starting Practice Test 3");
     await page.goto("https://www.google.com/");
     console.log(await page.title());
-    expect(page).toHaveTitle("Google")
+    expect(page).toHaveTitle("Google");
     console.log("Ending Practice Test 3");
 })
